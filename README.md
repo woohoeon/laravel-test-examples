@@ -81,3 +81,20 @@ php artisan migrate:refresh
 ```
 php artisan make:auth
 ```
+
+### 자바스크립트 명령어
+
+* 라라벨 Mix실행하기
+```
+npm run dev
+```
+
+* 라라벨 Mix실행하기 그리고 minify실행
+```
+npm run production
+```
+
+* Assets 변경 감시하기
+```
+npm run watch
+```
