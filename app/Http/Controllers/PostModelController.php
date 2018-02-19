@@ -46,7 +46,10 @@ class PostModelController extends Controller
      */
     public function show(Postmodel $postmodel)
     {
-        //
+        $postmodels = $postmodel::all();
+        foreach ($postmodels as $model) {
+            echo $model->name;
+        }
     }
 
     /**
